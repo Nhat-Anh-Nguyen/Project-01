@@ -1,0 +1,124 @@
+body{
+    margin: auto;
+}
+#Onsite{
+    background-color: black;
+    width: 1440px;
+    height:1154px;
+    /* background-color: beige; */
+    margin: auto;
+}
+#container{
+    margin-left: 165px;
+    margin-right:165px;
+    height: 1154px;
+    /* background-color: rgb(143, 28, 47); */
+}
+#Section__Heading{
+    margin: auto;
+    font-family: tahoma,sans-serif;
+    font-size:48px;
+    font-weight: 800;
+    line-height:64px;
+    color:white;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+#Section__Heading p{
+    margin-top: 80px;
+    margin-bottom: 18px;
+    width:730px;
+    height:128px;
+    /* background-color:rgb(228, 128, 14); */
+    text-align: center;
+}
+#Features__List{
+    width: 1110px;
+    height: 752px;
+    /* background-color: blanchedalmond; */
+    float: left;
+}
+.row{
+    float: left;
+    width:1110px;
+    height: 346px;
+    margin-top: 30px;
+}
+.box{
+    float: left;
+    width:286px;
+    height:306px;
+    background-color: white;
+    border-radius:8px;
+    padding-left:32px;
+    padding-right:32px;
+    padding-top: 40px;
+    margin-left: 30px;
+}
+.no__margin{
+    margin-left: 0px;
+}
+.Feature__Icons{
+    float: left;
+}
+.Details{
+    float: left;
+    margin-top:56px;
+    font-family: tahoma,sans-serif;
+}
+.Headline{
+    float: left;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    color:#18191F;
+}
+.Description{
+    float: left;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height:26px;
+    color:#18191F;
+}
+.link{
+    float: left;
+    margin-top:40px;
+    color:#8C30F5;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: tahoma,sans-serif;
+}
+.link a{
+    text-decoration: none;
+}
+#footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: tahoma,sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+#Footer_button{
+    margin-top: 48px;
+    width:161px;
+    height:48px;
+    border: #ffffff 2px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+#Footer_button a{
+    color: white; 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 16px;
+}
